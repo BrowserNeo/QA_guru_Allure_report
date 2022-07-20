@@ -1,6 +1,3 @@
-# QA_guru_Allure_report
-test selene + allure.step
-
 
 Написать тест на проверку названия Issue в репозитории через Web-интерфейс.
 
