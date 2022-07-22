@@ -1,7 +1,11 @@
+import allure
+from selene import by, be
 from selene.support.shared import browser
+
 
 def test_github():
     browser.open('https://github.com')
+
 
     s('.header-search-input').click()
     s('.header-search-input').send_keys("eroshenkoam/allure-example")
