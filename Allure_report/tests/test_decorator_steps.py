@@ -19,7 +19,7 @@ def open_main_page():
 
 
 @allure.step("Searching of repositories {repo}")
-def search_for_repository(repo)
+def search_for_repository(repo):
     browser.element('.header-search-input').click()
     browser.element('.header-search-input').send_keys(repo)
     browser.element('.header-search-input').submit()
