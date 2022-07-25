@@ -3,6 +3,7 @@ from selene import by, be
 from selene.support.shared import browser
 
 
+
 def test_decorator_steps():
     open_main_page()
     search_for_repository("eroshenkoam/allure-example")
