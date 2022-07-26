@@ -37,5 +37,6 @@ def open_issues_tab():
 
 @allure.step("Should see Issue with number {number}")
 def should_see_issue_with_number(number):
-    browser.element(by.partial_text("#76")).should(be.visible)
+    number = '#76'
+    browser.element(by.partial_text(number)).should(be.visible)
 
