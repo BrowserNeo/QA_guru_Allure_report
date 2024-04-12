@@ -1,6 +1,6 @@
 
 
-![1*LLHlj24sn3mPSgq9WtX-Vg](https://user-images.githubusercontent.com/106055633/180082293-1dbefc28-f4bc-4480-8ff0-a13f2c940c56.png)
+![1*LLHlj24sn3mPSgq9WtX-Vg](https://github.com/BrowserNeo/QA_guru_Allure_report/blob/master/allure-report.png)
 
 
 
