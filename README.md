@@ -15,9 +15,3 @@
 
 
 ##### Тесты лежат в папке  Allure_report/tests/
-start db
-docker stop tedu-db || true
-docker rm tedu-db || true
-docker volume rm serversetup_postgres-data || true
-docker compose up -d --force-recreate tedu-database
-sleep 5
