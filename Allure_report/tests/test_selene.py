@@ -14,4 +14,4 @@ def test_github():
     browser.element(by.link_text("eroshenkoam/allure-example")).click()
 
     browser.element("#issues-tab").click()
-    browser.element(by.partial_text("#78")).should(be.visible)
+    browser.element(by.partial_text("#76")).should(be.visible)
